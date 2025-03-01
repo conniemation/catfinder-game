@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatFinder4000 Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>CatFinder4000</h1>
+        <div id="gameText"></div>
+        <div id="actions">
+            <button id="moveBtn" onclick="move()">Move</button>
+            <button id="investigateBtn" onclick="investigate()">Investigate</button>
+        </div>
+        <div id="inputContainer" style="display:none;">
+            <input type="text" id="userInput" placeholder="Your choice...">
+            <button onclick="processInput()">Submit</button>
+        </div>
+        <div id="status"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
